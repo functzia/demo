@@ -1,0 +1,9 @@
+[
+  {
+    "name": "fofx-web",
+    "params": {
+      "port": 5000
+    }
+  },
+  "fofx-cron"
+]
