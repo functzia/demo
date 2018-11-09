@@ -1,0 +1,11 @@
+{
+  "input": {
+    "type": "cron",
+    "cron": "*/20 * * * * *"
+  },
+  "output": {
+    "type": "fs",
+    "root": "D:/dev/test-dir",
+    "template": "sample_{ts}.mock"
+  }
+}
