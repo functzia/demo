@@ -1,0 +1,12 @@
+{
+  "input": {
+    "type": "fs",
+    "root": "D:/dev/test-dir",
+    "encoding": "utf8"
+  },
+  "output": {
+    "type": "web",
+    "method": "POST",
+    "url": "http://localhost:5000/api/users"
+  }
+}
