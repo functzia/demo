@@ -1,0 +1,12 @@
+{
+  "input": {
+    "type": "cron",
+    "cron": "*/20 * * * * *"
+  },
+  "output": {
+    "type": "net",
+    "protocol": "udp",
+    "host": "localhost",
+    "port": 7070
+  }
+}
