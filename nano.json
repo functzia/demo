@@ -1,0 +1,11 @@
+{
+  "input": {
+    "type": "net",
+    "protocol": "udp"
+  },
+  "output": {
+    "type": "fs",
+    "root": "D:/dev/test-dir",
+    "template": "sample_{ts}.json"
+  }
+}
