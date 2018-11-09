@@ -6,6 +6,6 @@
   "output": {
     "type": "fs",
     "root": "D:/dev/test-dir",
-    "template": "sameple_{ts}.mock"
+    "template": "sample_{ts}.mock"
   }
 }

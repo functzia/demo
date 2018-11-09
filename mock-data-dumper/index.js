@@ -27,5 +27,5 @@ module.exports = function() {
     user,
     ts: Date.now()
   };
-  return msgpack(data).toJSON();
+  return msgpack.encode(data).toJSON();
 };
