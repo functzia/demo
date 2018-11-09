@@ -1,0 +1,7 @@
+{
+  "useState": true,
+  "input": {
+    "type": "web",
+    "endpoint": "users"
+  }
+}
