@@ -1,0 +1,8 @@
+{
+  "useState": true,
+  "input": {
+    "type": "fs",
+    "root": "D:/dev/test-dir",
+    "encoding": "utf8"
+  }
+}
