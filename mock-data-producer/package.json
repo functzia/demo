@@ -1,6 +1,6 @@
 {
-  "name": "mock-data-dumper",
-  "version": "1.0.3",
+  "name": "mock-data-producer",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "casual": "^1.5.19",
     "msgpack-lite": "^0.1.26"
   }
 }

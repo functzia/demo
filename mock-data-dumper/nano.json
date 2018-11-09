@@ -1,11 +1,11 @@
 {
   "input": {
-    "type": "cron",
-    "cron": "*/20 * * * * *"
+    "type": "net",
+    "protocol": "udp"
   },
   "output": {
     "type": "fs",
     "root": "D:/dev/test-dir",
-    "template": "sample_{ts}.mock"
+    "template": "sample_{ts}.json"
   }
 }
