@@ -1,0 +1,32 @@
+{
+  "name": "fofx-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:functzia/demo.git",
+  "author": "oakfang <oakfang@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "fofx",
+    "master": "fofx --port 9090",
+    "worker": "fofx-worker --broker='ws://localhost:9090' --dry"
+  },
+  "fofx": {
+    "nanos": [
+      "https://github.com/functzia/nano-test/tarball/master",
+      "https://github.com/functzia/nano-test/tarball/crontab",
+      "https://github.com/functzia/nano-test/tarball/mirror"
+    ],
+    "plugins": [
+      {
+        "name": "@fofx/web",
+        "params": {
+          "port": 5000
+        }
+      },
+      "@fofx/cron"
+    ]
+  },
+  "dependencies": {
+    "@fofx/core": "^1.0.0"
+  }
+}
