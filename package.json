@@ -27,6 +27,6 @@
     ]
   },
   "dependencies": {
-    "@fofx/core": "^1.0.0"
+    "@fofx/cli": "^1.0.0"
   }
 }
